@@ -1,0 +1,4 @@
+* Tune reverb engine
+* Add support for chorus, vibrato and tremolo
+* Create Kernel driver that will use the lib.
+* Windows/X front end for player.

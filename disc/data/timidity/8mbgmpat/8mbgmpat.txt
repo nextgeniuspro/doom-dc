@@ -1,0 +1,236 @@
+8MBGM and 8MBGSFX Gravis Patch Set v1.3
+=======================================
+(C)Copyright 1997-2004, Rich ¥Weeds¥ Nagel - All rights reserved
+
+Overview
+--------
+The files in this archive consist of a complete set of high quality Gravis
+format patch files that were created from EMU Technologies "8MBGM.SF2" and
+"8MBGSFX.SF2" SoundFont format soundbanks (E-mu Rev B).
+
+The patch set consists of 635 Gravis format patches (a total of 32,156,227
+bytes of patch files) which make up a single high quality General MIDI
+compatable standard melodic bank, and a total of nine different General MIDI
+compatable drum kits (Standard, Room, Power, Electronic, TR-808, Jazz, Brush,
+Orchestral, and Sound Effects drum kits).
+
+These patch files can be used with the software wavetable synthesis MIDI music
+synthesizer "Timidity", or any program or utility that supports Gravis format
+patches for music synthesis (such as the native Gravis patch support included
+with PRBOOM, the native Timidity support included with ZDOOM, the software
+wavetable synthesis digital MIDI "DIGMID" music driver support included with
+BOOM or any other Allegro based application, or the MIDI player support of the
+Cubic Player).
+
+Essentially this patch set will make the MIDI music playback of any of the
+above mentioned applications sound highly realistic, all without the need of
+expensive MIDI hardware.
+
+
+Installation
+------------
+First create a new directory on your hard drive (i.e. "C:\8MBGMPAT"), and then
+simply unzip the files contained in the 8MBGMPAT.ZIP archive to this new
+directory.
+
+
+Allegro Usage
+-------------
+1) Run the ASETUP.EXE or SETUP.EXE configuration utility that is included with
+   the Allegro based application.
+
+2) Select the proper "Digital Driver" for your sound card.
+
+3) For best sounding results, change the Digital Driver's sampling rate within
+   the configuration utility to 22,727 (or higher).
+
+4) Back at the main Setup menu, click on "Midi Driver" and select the "Digital
+   MIDI" (DIGMID) option.
+
+5) Click on "Patches" and navigate around your hard drive to the directory
+   where you unzipped the patches, and then select one of the following nine
+   configuration files:
+
+   BRUSH.CFG    = Standard Melodic Bank and Brush Drum Kit
+   ELECTRIC.CFG = Standard Melodic Bank and Electronic Drum Kit
+   JAZZ.CFG     = Standard Melodic Bank and Jazz Drum Kit
+   ORCHSTRL.CFG = Standard Melodic Bank and Orchestral Drum Kit
+   POWER.CFG    = Standard Melodic Bank and Power Drum Kit
+   ROOM.CFG     = Standard Melodic Bank and Room Drum Kit
+   SFX.CFG      = Standard Melodic Bank and Sound Effects Drum Kit
+   STANDARD.CFG = Standard Melodic Bank and Standard Drum Kit (default)
+   TR808.CFG    = Standard Melodic Bank and TR-808 Drum Kit
+
+6) Back at the main Setup menu, click on "Test" to test your Digital Driver and
+   Midi Driver selections.
+
+7) Back at the main Setup menu, click on "Save Changes and Exit". The setup
+   utility will then create the file ALLEGRO.CFG in the current directory with
+   your saved settings.
+
+
+BOOM Usage
+----------
+1) Run the ASETUP.EXE configuration utility that is included with BOOM.
+
+2) Select the proper "Digital Driver" for your sound card.
+
+3) For best sounding results, change the Digital Driver's sampling rate within
+   the configuration utility to 22,727 (or higher).
+
+4) Back at the main Setup menu, click on "Midi Driver" and select the "Digital
+   MIDI" (DIGMID) option.
+
+5) Click on "Patches" and navigate around your hard drive to the directory
+   where you unzipped the patches, and then select one of the following nine
+   configuration files:
+
+   BRUSH.CFG    = Standard Melodic Bank and Brush Drum Kit
+   ELECTRIC.CFG = Standard Melodic Bank and Electronic Drum Kit
+   JAZZ.CFG     = Standard Melodic Bank and Jazz Drum Kit
+   ORCHSTRL.CFG = Standard Melodic Bank and Orchestral Drum Kit
+   POWER.CFG    = Standard Melodic Bank and Power Drum Kit
+   ROOM.CFG     = Standard Melodic Bank and Room Drum Kit
+   SFX.CFG      = Standard Melodic Bank and Sound Effects Drum Kit
+   STANDARD.CFG = Standard Melodic Bank and Standard Drum Kit (default)
+   TR808.CFG    = Standard Melodic Bank and TR-808 Drum Kit
+
+6) Back at the main Setup menu, click on "Test" to test your Digital Driver and
+   Midi Driver selections.
+
+7) Back at the main Setup menu, click on "Save Changes and Exit". The setup
+   utility will then create the file ALLEGRO.CFG in your BOOM directory with
+   your saved settings.
+
+
+Cubic Player Usage
+------------------
+1) Edit the "guspatchpath=" line in the CP.INI configuration file (located in
+   your Cubic Player directory) to point to the drive and complete path to
+   where you unzipped the patches on your hard drive (i.e.
+   "guspatchpath=C:\8MBGMPAT", minus the quotes).
+
+2) Optionally copy one of the following nine configuration files to the
+   filename DEFAULT.CFG (located in the directory where you unzipped the
+   patches):
+
+   BRUSH.CFG    = Standard Melodic Bank and Brush Drum Kit
+   ELECTRIC.CFG = Standard Melodic Bank and Electronic Drum Kit
+   JAZZ.CFG     = Standard Melodic Bank and Jazz Drum Kit
+   ORCHSTRL.CFG = Standard Melodic Bank and Orchestral Drum Kit
+   POWER.CFG    = Standard Melodic Bank and Power Drum Kit
+   ROOM.CFG     = Standard Melodic Bank and Room Drum Kit
+   SFX.CFG      = Standard Melodic Bank and Sound Effects Drum Kit
+   STANDARD.CFG = Standard Melodic Bank and Standard Drum Kit (default)
+   TR808.CFG    = Standard Melodic Bank and TR-808 Drum Kit
+
+3) For the best sounding results, press the "E" key on your keyboard within
+   Cubic Player to access the "Echo Editor" menu, and select the "Waschmaschine
+   & Hagel (c) Koegl" echo while playing a MIDI file.
+
+
+PRBOOM Usage
+------------
+1) Copy the TIMIDITY.CFG file from the directory where you unzipped the patches
+   to your PRBOOM directory.
+
+2) Edit the "dir c:\patches\8mbgmpat" line in the TIMIDITY.CFG configuration
+   file (located in your PRBOOM directory) to point to the drive and complete
+   path to where you unzipped the patches on your hard drive (i.e. "dir
+   c:\8mbgmpat", minus the quotes).
+
+3) For best sounding results, change the "Sample Rate" within PRBOOM's "Sound
+   Options" menu to 22,050 (or higher).
+
+
+Timidity Usage
+--------------
+1) Copy the TIMIDITY.CFG file from the directory where you unzipped the patches
+   to your Timidity directory.
+
+2) Edit the "dir c:\patches\8mbgmpat" line in the TIMIDITY.CFG configuration
+   file (located in your Timidity directory) to point to the drive and complete
+   path to where you unzipped the patches on your hard drive (i.e. "dir
+   c:\8mbgmpat", minus the quotes).
+
+3) For best sounding results, select "Enable Chorus Control Effect", "Enable
+   Reverb Control Effect", "Enable Overlapped Same Voice", 16-bit, and stereo,
+   and change the sampling rate to 44,100 (or higher) within Timidity's various
+   "Preferences" menus.
+
+
+ZDOOM Usage
+-----------
+1) Download the special version of Timidity for ZDOOM from
+   http://www.zdoom.org/files/timidity4zdoom.zip.
+
+2) Unzip the files contained in the timidity4zdoom.zip archive to your ZDOOM
+   directory.
+
+3) Copy the TIMIDITY.CFG file from the directory where you unzipped the patches
+   to your ZDOOM directory.
+
+4) Edit the "dir c:\patches\8mbgmpat" line in the TIMIDITY.CFG configuration
+   file (located in your ZDOOM directory) to point to the drive and complete
+   path to where you unzipped the patches on your hard drive (i.e. "dir
+   c:\8mbgmpat", minus the quotes).
+
+5) Edit the "snd_mididevice=" line in the ZDOOM.INI configuration file (located
+   in your ZDOOM directory) to read "snd_mididevice=-2" (minus the quotes).
+
+6) For best sounding results, edit the "timidity_reverb=" and
+   "timidity_chorus=" lines in the ZDOOM.INI configuration file (located in
+   your ZDOOM directory) to read "timidity_reverb=1" and "timidity_chorus=1"
+   (minus the quotes) to enable MIDI reverb and chorus, and the
+   "timidity_frequency=" line to read "timidity_frequency=22050" (or higher).
+
+
+Technical Information
+---------------------
+If you understand the basics of Gravis format patches and the concepts of
+software wavetable synthesis, have a look at all of the configuration files
+included with this package. There are numerous remarks of interest in those
+files that I have added throughout the years as this project has slowly
+developed (since December 1997), and during the time that the configuration
+files were created and edited.
+
+
+Legalities
+----------
+The 8MBGM and 8MBGSFX Gravis Patch Set (8MBGMPAT.ZIP) may be freely distributed
+in it's unmodified and unedited form with no modifications to any of the
+included support files or documents, and in it's original unmodified and
+unedited ZIP format archive for any non-commercial use as freeware.
+
+The archive and/or it's contents may not be distributed on any commercial
+CD-ROM or any other commercial magnetic or electronic media (commercial or
+freeware implied), on any "pay per download" online service, for any purpose of
+financial gain whatsoever, or for any purpose other than 100% freeware.
+
+
+Version History
+---------------
+v1.0                  - First unreleased test version.
+(December 8, 1997)
+
+v1.1                  - Second unreleased test version.
+(December 11, 1997)
+
+v1.2                  - Privately released test version.
+(January 1, 1998)
+
+v1.3                  - Final release.
+(April 20, 2004)
+
+
+ENJOY!
+------
+Rich ¥Weeds¥ Nagel [CIS: 112615,1575]
+RichNagel@compuserve.com
+112615.1575@compuserve.com
+RFNagel@juno.com
+http://ourworld.compuserve.com/homepages/RichNagel
+http://www.geocities.com/RFNagel
+http://www.geocities.com/TimesSquare/Metro/7256
+http://snor.cmoo.com/weeds
+http://www.cmoo.com/~snor/weeds

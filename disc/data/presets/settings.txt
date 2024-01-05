@@ -1,0 +1,255 @@
+The settings file for Doom is a plain text file. Each option starts
+with a dash "-" and may be optionally followed by arguments each on
+their own line.
+
+-fps
+This option turns on the frames per second display. When not
+present, the FPS are not displayed.
+
+-tv
+This option signals the options related to video following are
+for TV output. When not present, the video options are for VGA
+monitor output.
+
+-width
+<width in pixels>
+This option is followed by a single number that gives the width of
+the display in pixels. Valid values are:
+For TV: 304, 608, and 576
+For VGA: 320, 640, and 800
+
+-vsync
+This option causes Doom to wait for the vertical blank when flipping
+the screen buffers. When not present, Doom doesn't wait.
+
+-lowdetail
+This option causes Doom to render the display at half the resolution
+of the width. So if the display width is 320 pixels, low detail would
+render 160 columns. When not present, Doom renders every column (high
+detail).
+
+-tvcx
+<offset>
+This option sets the offset for centering the display for TV output.
+It does nothing for VGA output. It is followed by a single number
+given the horizontal offset in pixels.
+
+-tvcy
+<offset>
+This option sets the offset for centering the display for TV output.
+It does nothing for VGA output. It is followed by a single number
+given the vertical offset in lines.
+
+-nosfx
+This option turns off sound effects. When not present, sounds are
+played.
+
+-music
+This option turns on music. When not present, no music is played.
+
+-iwad
+<file>
+This option selects the main WAD file. It is followed by a string
+giving the full path to the file. This MUST be present!
+
+-file
+<file1>
+<file2>
+<file3>
+<file4>
+This option selects up to four patch WAD files. It is followed by
+one to four strings giving the full path to the file(s). When not
+present, no patch WAD files are selected.
+
+-deh
+<file1>
+<file2>
+<file3>
+<file4>
+This option selects up to four DeHackEd files. It is followed by
+one to four strings giving the full path to the file(s). When not
+present, no DeHackEd files are selected.
+
+-maponhu
+This option causes the map to be displayed over top the game display
+instead of blanking the display before drawing the map as usual.
+
+-rotatemap
+This option causes the map to rotate as the player turns instead of
+rotating the arrow representing the player on the map.
+
+-forcedemo
+This option causes Doom to try to play the demos regardless
+of whether it thinks the demos can be played by this version
+of Doom or not.
+
+-rumble
+This option enables force feedback on injury or weapons fire.
+
+-noanalog
+This option turns off the analog stick. When not present, the
+analog stick can be used like a mouse for controlling the player.
+
+-analogcx
+<number>
+This option sets the center position for the analog stick. The
+number can range from 0 to 255, and the default is 128.
+
+-analogcy
+<number>
+This option sets the center position for the analog stick. The
+number can range from 0 to 255, and the default is 128.
+
+-analogminx
+<number>
+This option sets the lowest position for the analog stick.
+The number can range from 0 to 255, and the default is 0.
+
+-analogminy
+<number>
+This option sets the lowest position for the analog stick.
+The number can range from 0 to 255, and the default is 0.
+
+-analogmaxx
+<number>
+This option sets the highest position for the analog stick.
+The number can range from 0 to 255, and the default is 255.
+
+-analogmaxy
+<number>
+This option sets the highest position for the analog stick.
+The number can range from 0 to 255, and the default is 255.
+
+-cheat1
+<number>
+This option sets the first fast cheat. It is followed by
+a number from 0 to 12 which represent the following cheats:
+"none"
+"God Mode"
+"Fucking Arsenal"
+"Key Full Ammo"
+"No Clipping"
+"Toggle Map"
+"Invincible with Chainsaw"
+"Berserker Strength Power-up"
+"Invincibility Power-up"
+"Invisibility Power-Up"
+"Automap Power-up"
+"Anti-Radiation Suit Power-up"
+"Light-Amplification Visor Power-up"
+
+-cheat2
+<number>
+This option sets the second fast cheat.
+
+-cheat3
+<number>
+This option sets the third fast cheat.
+
+
+The following options are not generally used, or only used for
+network games. Consult a decent book on Doom for details.
+
+-nomonsters
+This option disables monsters in Doom. It's generally used with
+the death match option.
+
+-respawn
+This option enables respawning in the game. This is another option
+usually associated with death match.
+
+-fast
+This option enables the fast mode in the game.
+
+-turbo
+This option enables the turbo mode in the game.
+
+-deathmatch
+This option enables death match mode.
+
+-altdeath
+This option enables the alternate death match mode.
+
+-record
+<number>
+This option is followed by a single number from 0 to 9 which
+causes Doom to record the game to one of ten files.
+
+-playdemo
+<number>
+This option is followed by a single number from 0 to 9 which
+causes Doom to immediately play the demo given by the number.
+
+-timedemo
+<number>
+This option is followed by a single number from 0 to 9 which
+causes Doom to immediately play the demo while timing (every
+frame is played). When done, Doom exits while showing how fast
+the game ran.
+
+-timer
+<number>
+This option sets the timer mode. Consult a book for this one.
+It is followed by a single number.
+
+-avg
+This option sets a specific death match mode.
+
+-statcopy
+Consult a book for this.
+
+-forceversion
+<number>
+This option forces Doom to think the game version is the number
+that follows. The default is 110, which represents v1.10. This
+may be needed for network games.
+
+-net
+<number>
+<address>
+<address>
+<address>
+This option enables net play. It is followed by a number that
+sets the player number, which should be between 0 and 3. It is
+followed by at least one, and up to three IP addresses. Read the
+readme file for details on setting up a network game.
+
+-port
+<number>
+This option sets the port used for network games, and is followed
+by a single number which gives the port. This defaults to 5029.
+
+-dup
+<number>
+This option sets the packet duplication count. Consult a book.
+
+-extratic
+This option enables extra tic mode for network games. Consult a
+book.
+
+-pcchecksum
+This option sets Doom to use "PC" ordering when checksumming 
+network packets. This may be needed if playing against a PC.
+
+-skill
+<number>
+This option sets the skill level. Set this for network games.
+The number should be from 0 to 4 and represent:
+"I'm Too Young To Die"
+"Hey, Not Too Rough"
+"Hurt Me Plenty"
+"Ultra-Violence"
+"Nightmare!"
+The default skill level is 2.
+
+-warp
+<number>
+or
+-warp
+<number>
+<number>
+This option sets the level to start on for a network game.
+If you are playing a Doom 2 type map, a single number follows
+setting the map to start with. If playing a Doom 1 type map,
+two numbers follow, setting the episode and map to start with.
+

@@ -1,0 +1,93 @@
+Description: DMINATOR.WAD - A PWAD file containing 9 levels for episode 1. 
+Usage: Doom -file dminator.wad
+By: Flash (Rob Ganshorn) 
+For use with REGISTERED DOOM (c) ID Software. 
+(Will not work with the shareware version)
+ 
+ Well here they are, the DOOMINATOR levels. These levels are designed 
+*ESPECIALLY* for 2 player co-ops, though if you want to play deathmatch
+you might not have time to hunt your friend down! 
+
+ Deathmatch locations have not been checked out thouroughly because my 
+friend and I haven't bothered with that mode. The
+purpose again for these levels was 2 player co-op although if you play
+by yourself there is nothing you cannot do. It would be just alot tougher.
+ 
+ For normal play use the ultra violence setting. 
+
+ See notes about level 2 for a special consideration effected by violence
+setting (this was a late change).
+
+ A few notes on some of the levels and the mechanics of play
+
+Level 1: Be careful and don't waste ammo by picking it up and then dying!
+         Take it slow! Run out into the pit and grab the invun shpere
+         ASAP because you will need it! I added a new exit to make getting
+         out easier. You can warp back! Find it!
+
+Level 2: There are a boatload of pink demons outside. Maybe I got carried
+         away with the "insert" key (grin), but chainsaw most of them if 
+         you can. There won't be enough ammo to do it any other way.
+         Update. I added more ammo so you won't need to chainsaw all of
+         them, just some of them. What was that episode name?????
+         I think this part may play too slow on some machines because of
+         the sheer number of pink demons. It's accepatble on a 486-50
+         but not everyone has a machine this fast. If it is too slow then
+         play this game on anything lower than Ultra Violence mode. I have
+         set it to cut the number of pink demons roughly in half. This is 
+         the ONLY affect changing the skill level will have on these levels.
+         
+Level 3: Don't die in the area across from the left door at the beginning
+         of the game. You need to get into there to be able to gain later
+         access to the secret level. If you die in there, you can't return
+         because your path is blocked. You can still finish the level, but
+         you can no longer gain access to the secret level. Use your CELL
+         ammo sparingly on this level. If you do make it into the area to
+         go to the secret level, get the invun FAST! Also, watch for the
+         blackout trap hidden somewhere. It will blackout the entire level!
+         (It's very small and really won't get in the way). I put this in 
+         by accident, but thought it was neat enough to leave in. If you
+         don't specify a sector tag for a blackout linedef, it just so 
+         happens it blacks out almost the entire level.. Where's that F11
+         key????????
+
+Secret:  Lotsa guys, lotsa health and ammo and watch the rocket dude on
+         the center moving platform. Don't head out until the lift goes 
+         down. Even then run as fast as you can to the next room.
+
+Level 8: What happened to levels 4-7? Well, if you do ok on 1-3 plus the
+         secret level you should do ok on these. A few different suprises
+         may catch you off guard. Anyhow level 8 is a blast-fest. You really
+         aren't meant to survive it easily, if at all. What my friend and I
+         do is kill all the barons in the first room (stay at the top and
+         save the invun for when you need it). Kill all the barons in the 
+         second area then it usually breaks down into a deathmatch after
+         that. If you want to finish it, concentrate on killing the rocket
+         dude on top of the platform. A few BFG hits and he is toast! However
+         it is lotsa fun playing this level deathmatch after 8 levels of
+         co-op. There is nothing like getting even for the times your
+         partner accidently shot you! (yeah right, I think they do it on
+         purpose sometimes :-). We usually are able to play up to the rocket
+         dudes without dying. After that you either bfg the top guy and
+         finish or do a little deathmatch!
+
+ Well that's about it. NO BFG except on the last level. In my opinion the
+BFG makes things too easy especially when there is lotsa cell and rockets 
+around. Save ammo on levels until you need it. If you die with a full load,
+then you just wasted that ammo.... Once you play the levels and get to know
+them, you'll be able to have an easier time at it. There are a few areas
+where textures might not line up great or multiple switches appear on a 
+tall/wide wall. This is because there is no easy way for aligning textures
+in the map editors (yet) and that the switch textures are only so big. They
+all repeat to cover large areas so hence in about 1 or 2 spots throughout the
+levels you'll see multiple switches on a wall - a minor problem. All levels
+have been tested so that you can't get hoplessly stuck in one. You can miss
+the secret level if you die at the wrong time on level 3, so take it 
+easy! I left it this way because it's an extra challenge now to get there.
+Have a blast!
+
+Rob
+
+
+
+

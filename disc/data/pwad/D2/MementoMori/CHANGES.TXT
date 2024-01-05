@@ -1,0 +1,28 @@
+-----------------------------------------------------------------------
+Memento Mori, updated version, Feb 95
+-----------------------------------------------------------------------
+
+WebPage: http://www.geocities.com/Hollywood/2299/
+
+If you have problems downloading/installing MM, please write to 
+d.moeller@rendsburg.netsurf.de
+
+If you have problems playing/completing a specific level, please write
+to the appropriate author of the map. 
+
+-----------------------------------------------------------------------
+This is the updated version of Memento Mori. Here is a list of all
+the changes:
+
+- Maps changed due to bug-fixes or due to gameplay-improvements:
+  Map 2, 5, 7, 16, 21, 28 and 32. 
+- Fixed Demo-bug. 
+- Fixed name-bug of map 21.
+- Fixed order of map-titles.
+- Several changes of the Info-pack.
+
+This is the last version of Memento Mori (hopefully). If you are going
+to play Multiplayer games with MM, be sure to have the same version on
+every system! There is no upgrade-system available, just overwrite the
+old Memento Mori WAD files.
+-----------------------------------------------------------------------

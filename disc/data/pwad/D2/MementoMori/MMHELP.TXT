@@ -1,0 +1,103 @@
+
+2/10/96
+
+--------------------------------------------------------------------------
+
+ Memento Mori help file, v0.5, written by denis moeller
+                               d.moeller@rendsburg.netsurf.de
+
+ Memento Mori WebPage: http://www.geocities.com/Hollywood/2299/
+
+--------------------------------------------------------------------------
+ DOOM II, the DOOM II logo and DOOM II likenesses are trademarks of id
+ Software, inc.,(C)1994. All other trademarks are the property of their
+ companies.
+-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+ Microsoft Network is prohibited from redistributing this work in any
+ form, in whole or in part. Copyright, The Memento Mori Crew, 1995/96.
+ License to distribute this post is not available to Microsoft. Posting
+ without permission constitutes an agreement to these terms. Please send
+ notices of violation to helmberg@adis.at and Postmaster@microsoft.com
+--------------------------------------------------------------------------
+
+ Please note: most levels of Memento Mori were built with Co-Op play
+              in mind. All levels are playable in Single-Player Mode
+              as well,  but sometimes it  might seem a  bit strange,
+              that's because of disabled Multi-Player-Features.
+
+              Playing Memento Mori in Co-Op will be much more fun!
+
+--------------------------------------------------------------------------
+ Please get the file MMINFO.ZIP, it contains ALL you want to know about
+ Memento Mori, the authors etc. It has screenshots, music and information
+ about every single level. GET IT NOW!
+--------------------------------------------------------------------------
+
+  Here are some questions which could come up. Hope this helps.
+
+  If you have further questions about INSTALLING Memento Mori, check our
+  WebPage or write to: d.moeller@rendsburg.netsurf.de
+
+  If you have questions about PLAYING a specific level, either check our
+  WebPage or get the MM-Info-Pack and contact the author of the map!
+
+  ---
+
+  Q1) What do I need to play Memento Mori?
+  A1) First you'll need the original version of Doom II installed on
+      your hard-disc. Version1.9 is best. If you do not own Doom II,
+      go buy it. Second you'll need  ALL THREE ZIP files  containing
+      Memento Mori, they are called MM1_3.ZIP, MM2_3.ZIP & MM3_3.ZIP
+      Additionally you can download the MM-Info-Pack, which contains
+      background information, screenshots and info on how to contact
+      the authors of Memento Mori.
+
+  Q2) I've unpacked the ZIP file and there is no install-program.
+      What now?
+  A2) Get ALL THREE ZIP files, unpack them (in a temporary directory)
+      and start INSTALL.EXE.
+
+  Q3) Okay, the install-program worked fine, how do I start MM now?
+  A3) Change into your Doom II directory and start MM.EXE.
+      This program lets you choose wether or not you like to disable
+      the Cheat-Codes and new music. After pressing F10, MM.EXE will
+      call id's DeathManager.  Now choose your favourite game-type &
+      skill and start playing.
+      DO NOT change anything on the external WAD settings!
+      If you like to play alone or you like to watch the Demos,  run
+      STARTMM.BAT
+
+  Q4) The MM.EXE doesn't seem to work.  How can I play Memento Mori
+      without this program?
+  A4) Either run  id's DeathManager, enter  both WAD-files (MM.WAD &
+      MMMUS.WAD) and ENABLE external WADs or use the command line to
+      start Doom II: doom2 -file mm.wad mmmus.wad [...]
+
+  Q5) After having played Memento Mori for a while,  everytime I run
+      Doom II the Cheat-Codes don't work anymore! Help!
+  A5) Try this:
+      del doom2.exe
+      ren doom2.mm doom2.exe
+
+  Q6) Everytime I run  MM with the command-line,  Doom II breaks and
+      does not even let me into the main menu. What's that?
+  A6) That's probably because you don't have version 1.9 of Doom II.
+      Update your game or try starting Doom II with either MM.EXE or
+      id's DeathManager (see Q3/Q4).
+
+  Q7) The MM-Info-Pack doesn't seem to run, it always hangs.
+  A7) Try starting it with the '-nosound' parameter.
+
+  Q8) The MM-Info-Pack is very very dark, how do I fix this?
+  A8) Try hitting the 'G' or 'F11' key, to enable gamma-correction.
+      Also, try re-ajusting the brightness of your monitor.
+
+  Q9) Where can I send my 'congratulations and thanks' to? How can I
+      support Memento Mori?
+  A9) a) check our WebPage and use our offers, like Voting etc.
+      b) let everyone know how cool MM is, post to newsgroups etc.
+      c) if you have your own WebPage, make a link to ours! :)
+
+--------------------------------------------------------------------------
+ This is the end.
+--------------------------------------------------------------------------

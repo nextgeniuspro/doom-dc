@@ -1,0 +1,6 @@
+  <ITEM
+    TITLE="Doom for DC"
+    DESCRIPTION="Dreamcast port of Doom for PSP"
+    SCREENSHOT="/cd/Images/DCDoom.png"
+    TARGET="/cd/Games/DCDoom.bin"
+    PREROLL="/cd/Themes/Loading.dxi"/>

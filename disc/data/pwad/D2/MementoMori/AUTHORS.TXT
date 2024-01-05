@@ -1,0 +1,112 @@
+-----------------------------------------------------------------------
+Memento Mori, updated version, Feb 95
+-----------------------------------------------------------------------
+
+WebPage: http://www.geocities.com/Hollywood/2299/
+
+If you have problems downloading/installing MM, please write to 
+d.moeller@rendsburg.netsurf.de
+
+If you have problems playing/completing a specific level, please write
+to the appropriate author of the map. 
+
+-----------------------------------------------------------------------
+MAP 01 - The Teleporter
+by Denis Moeller (d.moeller@rendsburg.netsurf.de) and
+Michiel Rutting (m.p.m.rutting@student.utwente.nl)
+
+MAP 02 - The Bridge
+by David Davidson (driller@cris.com)
+
+MAP 03 - Interlock
+by Tom Mustaine (mustaine@usa.net)
+
+MAP 04 - The Stand
+by Jens Nielsen (perjuul@po.ia.dk)
+
+MAP 05 - Hell's Kitchen
+by Orin Flaharty (akira963@ix.netcom.com)
+
+MAP 06 - The Powerstation
+by Eric Sargent (esargent@netdoor.com)
+with misc editing by Mark Klem (mark@netdoor.com)
+
+MAP 07 - Not That Simple
+by Jens Nielsen (perjuul@po.ai.dk)
+
+MAP 08 - And The Dead Shall Rise
+by Orin Flaharty (akira963@ix.netcom.com)
+
+MAP 09 - Hightech Grave
+by Thomas Moeller (t.moeller@rendsburg.netsurf.de)
+
+MAP 10 - The Mansion
+by Alden Bates (alden@bates.wn.planet.gen.nz)
+
+MAP 11 - Halls Of Insanity
+by Eric Reuter (eric_reuter@merck.com) and
+Denis Moeller (d.moeller@rendsburg.netsurf.de)
+
+MAP 12 - Kinetics
+by Avatar (fsm3m@fermi.clas.virginia.edu)
+
+MAP 13 - The Inmost Dens II
+by Denis Moeller (d.moeller@rendsburg.netsurf.de)
+
+MAP 14 - Aquaduct
+by Tom Mustaine (mustaine@usa.net)
+
+MAP 15 - Karmacoma
+by Florian Helmberger (helmberg@adis.at)
+
+MAP 16 - Stoned
+by Kurt Schmid (kschmid@eagle.ais.net)
+
+MAP 17 - House Of Thorn
+by Eric Sambach (c9223826@cs.newcastle.edu.au)
+
+MAP 18 - A Dead Man's Town
+by Henrik Rathje (A94HTR@Pc216.sdrborges.dk)
+
+MAP 19 - Maltraiter
+by Michael Rapp (mrapp53481@aol.com)
+
+MAP 20 - Mountain Depot
+by Scott Lampert (jumpstile@fortunat.pdial.interpath.net)
+
+MAP 21 - Twilight Lab
+by Andy Badorek (via migru@vg3.chemie.uni-konstanz.de)
+
+MAP 22 - The Escape
+by Denis Moeller (d.moeller@rendsburg.netsurf.de)
+
+MAP 23 - Showdown
+by Milo Casali (92111159@brookes.ac.uk)
+
+MAP 24 - Diehard
+by Dario Casali (92111159@brookes.ac.uk)
+
+MAP 25 - Cesspool
+by William Sullivan (afn03803@freenet.ufl.edu)
+
+MAP 26 - Between Scattered Corpses
+by Thomas & Denis Moeller (tic@rendsburg.netsurf.de)
+
+MAP 27 - Fort Hades
+by Scott Lampert (jumpstile@fortunat.pdial.interpath.net)
+
+MAP 28 - City Of The Unavenged
+by Jens Nielsen (perjuul@po.ia.dk)
+
+MAP 29 - Island Of Death
+by Thomas Moeller (t.moeller@rendsburg.netsurf.de)
+
+MAP 30 - Viper
+by Milo Casali (92111159@brookes.ac.uk)
+
+MAP 31 - Technology Base
+by Denis Moeller (d.moeller@rendsburg.netsurf.de)
+
+MAP 32 - The Hidden Slime Factory
+by Mark Klem (mark@netdoor.com)
+-----------------------------------------------------------------------

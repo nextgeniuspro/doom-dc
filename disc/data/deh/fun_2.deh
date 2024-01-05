@@ -1,0 +1,320 @@
+Patch File for DeHackEd v2.3
+
+# This patch file demonstrates some of the fun tricks outlined in
+# "Fun with DeHackEd" v1.2, which is included with DeHackEd.
+# Load it and enjoy the neat effects!
+
+Doom version = 19
+Patch format = 5
+
+
+Thing 1 (Player)
+Death frame = 808
+Exploding frame = 808
+
+Thing 3 (Sargeant)
+Alert sound = 0
+Pain sound = 0
+Close attack frame = 808
+Far attack frame = 0
+Death frame = 808
+Exploding frame = 808
+Death sound = 82
+Action sound = 0
+
+Thing 12 (Imp)
+Hit points = 4
+
+Thing 16 (Baron of Hell)
+Attack sound = 2
+Far attack frame = 615
+
+Thing 19 (Lost Soul)
+Bits = 4211206
+
+Thing 31 (Barrel)
+First moving frame = 806
+Alert sound = 16
+Attack sound = 16
+Injury frame = 806
+Pain chance = 170
+Pain sound = 26
+Close attack frame = 806
+Far attack frame = 806
+Exploding frame = 808
+Speed = 25
+Action sound = 75
+Bits = 205636102
+
+Thing 32 (Imp Fireball)
+Alert sound = 51
+
+Thing 35 (Plasma Bullet)
+Speed = -1
+
+Thing 40 (Teleport Flash)
+Bits = 536
+
+Thing 64 (Ammo Clip)
+ID # = 18
+Initial frame = 174
+Hit points = 20
+First moving frame = 176
+Alert sound = 36
+Attack sound = 1
+Injury frame = 187
+Pain chance = 200
+Pain sound = 27
+Far attack frame = 184
+Death frame = 189
+Exploding frame = 194
+Death sound = 59
+Speed = 16
+Height = 3670016
+Mass = 10
+Action sound = 75
+Bits = 4460550
+
+Thing 82 (Short Lamp)
+Initial frame = 442
+Hit points = 60
+First moving frame = 444
+Alert sound = 39
+Injury frame = 455
+Pain chance = 200
+Pain sound = 27
+Close attack frame = 452
+Far attack frame = 452
+Death frame = 457
+Exploding frame = 462
+Death sound = 62
+Speed = 8
+Width = 1310720
+Height = 3670016
+Action sound = 76
+Bits = 4194310
+
+Thing 114 (Dead Trooper)
+ID # = 2007
+Initial frame = 870
+Bits = 1
+
+Frame 21
+Duration = 1
+
+Frame 22
+Duration = 1
+Next frame = 29
+
+Frame 29
+Duration = 1
+
+Frame 97
+Sprite number = 44
+
+Frame 98
+Sprite number = 44
+
+Frame 99
+Sprite number = 44
+Sprite subnumber = 32773
+
+Frame 100
+Sprite number = 44
+Sprite subnumber = 32775
+
+Frame 101
+Sprite number = 44
+Sprite subnumber = 9
+
+Frame 207
+Sprite number = 57
+
+Frame 208
+Sprite number = 57
+
+Frame 209
+Sprite number = 57
+
+Frame 210
+Sprite number = 57
+Sprite subnumber = 1
+
+Frame 211
+Sprite number = 57
+Sprite subnumber = 0
+
+Frame 212
+Sprite number = 57
+
+Frame 213
+Sprite number = 57
+Sprite subnumber = 0
+
+Frame 214
+Sprite number = 57
+Sprite subnumber = 1
+
+Frame 215
+Sprite number = 57
+Sprite subnumber = 0
+
+Frame 216
+Sprite number = 57
+Sprite subnumber = 1
+
+Frame 218
+Sprite subnumber = 5
+
+Frame 220
+Sprite number = 57
+Sprite subnumber = 0
+
+Frame 221
+Sprite number = 57
+Sprite subnumber = 1
+
+Frame 222
+Sprite number = 0
+Sprite subnumber = 18
+
+Frame 223
+Sprite number = 0
+Sprite subnumber = 17
+
+Frame 224
+Sprite number = 0
+Sprite subnumber = 16
+
+Frame 225
+Sprite number = 0
+Sprite subnumber = 15
+
+Frame 226
+Sprite number = 0
+Sprite subnumber = 14
+Duration = 5
+Next frame = 227
+
+Frame 227
+Sprite number = 0
+Sprite subnumber = 15
+
+Frame 228
+Sprite number = 0
+Sprite subnumber = 16
+
+Frame 229
+Sprite number = 0
+Sprite subnumber = 17
+
+Frame 230
+Sprite number = 0
+Sprite subnumber = 16
+
+Frame 231
+Sprite number = 0
+Sprite subnumber = 15
+
+Frame 232
+Sprite number = 0
+Sprite subnumber = 16
+
+Frame 233
+Sprite number = 0
+Sprite subnumber = 17
+
+Frame 234
+Sprite number = 0
+Sprite subnumber = 18
+
+Frame 235
+Sprite number = 0
+Sprite subnumber = 19
+Duration = 5
+Next frame = 469
+
+Frame 468
+Next frame = 222
+
+Frame 615
+Sprite subnumber = 0
+
+Frame 616
+Sprite subnumber = 6
+
+Frame 617
+Sprite subnumber = 7
+
+Frame 618
+Sprite subnumber = 7
+
+Frame 842
+Sprite subnumber = 0
+
+Frame 843
+Sprite subnumber = 1
+
+Frame 844
+Sprite subnumber = 2
+
+Frame 845
+Sprite subnumber = 3
+
+Frame 846
+Sprite subnumber = 2
+
+Frame 847
+Sprite subnumber = 1
+
+Frame 848
+Sprite subnumber = 0
+
+Frame 849
+Sprite subnumber = 1
+
+Frame 850
+Sprite subnumber = 2
+
+Frame 851
+Sprite subnumber = 3
+
+Frame 852
+Sprite subnumber = 0
+
+Frame 853
+Sprite subnumber = 0
+
+Frame 854
+Sprite subnumber = 1
+
+Frame 855
+Sprite subnumber = 2
+
+Frame 856
+Sprite subnumber = 3
+
+Frame 861
+Sprite subnumber = 0
+
+Frame 862
+Sprite subnumber = 0
+
+Frame 863
+Sprite subnumber = 1
+
+Frame 864
+Sprite subnumber = 2
+
+Frame 865
+Sprite subnumber = 3
+
+Frame 866
+Sprite subnumber = 2
+
+Frame 867
+Sprite subnumber = 1
+
+Ammo 1 (Shells)
+Max ammo = 900
+Per ammo = 100

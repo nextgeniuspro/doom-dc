@@ -1,0 +1,16 @@
+Doominator
+-width
+320
+-height
+240
+-music
+-iwad
+/cd/iwad/doomu.wad
+-file
+/cd/pwad/D1/Doominator/dminator.wad
+-deh
+/cd/deh/suprwep8.deh
+-maponhu
+-rotatemap
+-forcedemo
+-rumble

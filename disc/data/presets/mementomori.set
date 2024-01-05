@@ -1,0 +1,15 @@
+Memento Mori
+-width
+320
+-height
+240
+-music
+-iwad
+/cd/iwad/doom2.wad
+-file
+/cd/pwad/D2/MementoMori/MM.WAD
+/cd/pwad/D2/MementoMori/MMMUS.WAD
+-maponhu
+-rotatemap
+-forcedemo
+-rumble
