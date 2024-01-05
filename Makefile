@@ -1,7 +1,7 @@
 TARGET = DCDoom.bin
 FIRSTREAD = 1st_read.bin
 
-# include $(KOS_BASE)/Makefile.rules
+include $(KOS_BASE)/Makefile.rules
 
 OBJS1= \
 	doomdef.o \
